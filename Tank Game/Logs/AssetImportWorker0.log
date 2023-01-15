@@ -1,0 +1,334 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Ben/Documents/UAT/GPE205/TankGame/Tank Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50463
+Successfully changed project path to: C:/Users/Ben/Documents/UAT/GPE205/TankGame/Tank Game
+C:/Users/Ben/Documents/UAT/GPE205/TankGame/Tank Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ben/Documents/UAT/GPE205/TankGame/Tank Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6043 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004763 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (724ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008873 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.263 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1264ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (330ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 4.312900 ms (FindLiveObjects: 0.266700 ms CreateObjectMapping: 0.041500 ms MarkObjects: 3.924300 ms  DeleteObjects: 0.078600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(066428dc3506a9743aa2ff1a039f26d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(066428dc3506a9743aa2ff1a039f26d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa84636f900bfd527ea8ee00e22b7ce') in 0.007129 seconds 
+  Import took 0.089290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.345684 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(0dbf44b45d4366c4197997acb7c8654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(0dbf44b45d4366c4197997acb7c8654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67db921081288bb4124eb8a9b0bfc4d') in 0.011931 seconds 
+  Import took 0.057163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 313.314833 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003220 seconds 
+  Import took 0.018746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.995062 seconds.
+  path: Assets/Tank
+  artifactKey: Guid(26372a5b771a0a647a9d572adf447b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank using Guid(26372a5b771a0a647a9d572adf447b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d94b480c24d711030e954a1b959083') in 0.003299 seconds 
+  Import took 0.006822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.050829 seconds.
+  path: Assets/Tank - Mark V drivable
+  artifactKey: Guid(2eb45a93c184ce54e9164fdd8049ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable using Guid(2eb45a93c184ce54e9164fdd8049ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead81bed24bf74db0d9c8f157ca078a9') in 0.003374 seconds 
+  Import took 0.006042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.668804 seconds.
+  path: Assets/Tank - Mark V drivable/New Terrain.asset
+  artifactKey: Guid(5bc4f976036fae44db319c9ed58d5695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/New Terrain.asset using Guid(5bc4f976036fae44db319c9ed58d5695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c01d2a362b1302064420648ad529346') in 0.291301 seconds 
+  Import took 0.294092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.970916 seconds.
+  path: Assets/Tank - Mark V drivable/Prefab
+  artifactKey: Guid(eaaeb7c1cc3b46d44a3bb5c6fefc8066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Prefab using Guid(eaaeb7c1cc3b46d44a3bb5c6fefc8066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88429c78464f4a71f5f6b02000684b12') in 0.003576 seconds 
+  Import took 0.044098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023046 seconds.
+  path: Assets/Tank - Mark V drivable/Prefab/MarkV.prefab
+  artifactKey: Guid(59320ed1ba3b61241bc6d7c0bb56b63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Prefab/MarkV.prefab using Guid(59320ed1ba3b61241bc6d7c0bb56b63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9285f093bcf55e6791462378a6f3f3') in 1.839734 seconds 
+  Import took 1.843780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.331265 seconds.
+  path: Assets/Tank - Mark V drivable/Scripts/CameraController.cs
+  artifactKey: Guid(a8d6f581fa3a7bb45bb653caa9fe7070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Scripts/CameraController.cs using Guid(a8d6f581fa3a7bb45bb653caa9fe7070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff557cece4e83fff90fd8d78415035a') in 0.200617 seconds 
+  Import took 0.203204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.429900 seconds.
+  path: Assets/Tank - Mark V drivable/Scripts/PlayerController.cs
+  artifactKey: Guid(1c2a072d72bc88c438a56d640542813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Scripts/PlayerController.cs using Guid(1c2a072d72bc88c438a56d640542813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f139e8e328125df6dd25bc2a06dbef9') in 0.003526 seconds 
+  Import took 0.018559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.100133 seconds.
+  path: Assets/Tank - Mark V drivable/Models/MarkV.fbx
+  artifactKey: Guid(48c25d151f7c5c047bcd357d0206fa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Models/MarkV.fbx using Guid(48c25d151f7c5c047bcd357d0206fa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf15b56e076349e4a42040e9fcf7532') in 0.603756 seconds 
+  Import took 0.606739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.078322 seconds.
+  path: Assets/Tank - Mark V drivable/Models/Materials/No Name.mat
+  artifactKey: Guid(13b13b353308b8d4795515773f7cc31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Models/Materials/No Name.mat using Guid(13b13b353308b8d4795515773f7cc31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15379ca013352f4d63d3482838804026') in 0.183837 seconds 
+  Import took 0.186488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.349117 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/GunFireCross.png
+  artifactKey: Guid(05f6b246cf3c1a5429db91e0a5b29999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/GunFireCross.png using Guid(05f6b246cf3c1a5429db91e0a5b29999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9843bb7ca8bc430e7bb0a8cbef413b0a') in 0.075426 seconds 
+  Import took 0.077979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/TexturesCom_SoilMud0004_1_seamless_S.jpg
+  artifactKey: Guid(e4836c83dfd35c34fa39e7b25493d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/TexturesCom_SoilMud0004_1_seamless_S.jpg using Guid(e4836c83dfd35c34fa39e7b25493d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ed08684a3ad6b12b6c75d85109d673') in 0.012915 seconds 
+  Import took 0.015551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/TexturesCom_SoilMud0004_1_seamless_S_n.png
+  artifactKey: Guid(374f269249155f343aa1f8ed39f8e3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/TexturesCom_SoilMud0004_1_seamless_S_n.png using Guid(374f269249155f343aa1f8ed39f8e3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2d5f4b5c618137dc38c59c751b383b') in 0.015259 seconds 
+  Import took 0.035214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/MarkV_Tank_Normal.png
+  artifactKey: Guid(d77f9105f43253e47b1f45c4aed774e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/MarkV_Tank_Normal.png using Guid(d77f9105f43253e47b1f45c4aed774e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f44007277f15f00552c3b4fcfdc7d9') in 0.012669 seconds 
+  Import took 0.015108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/MarkV_Track_Albedo.png
+  artifactKey: Guid(d610d6369bce4174f938d72cdcba84ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/MarkV_Track_Albedo.png using Guid(d610d6369bce4174f938d72cdcba84ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c0dbd30916a1a1d7b1f4532ec3cba6') in 0.011328 seconds 
+  Import took 0.014039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/MarkV_Track_Normal.png
+  artifactKey: Guid(93648c66d6f38ed48b4fdfd2e19766a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/MarkV_Track_Normal.png using Guid(93648c66d6f38ed48b4fdfd2e19766a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e162ff932647528c7aa2648282164244') in 0.011738 seconds 
+  Import took 0.014249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/MarkV_Canon_Albedo.png
+  artifactKey: Guid(bac98157b637bab42b0458ecfc324b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/MarkV_Canon_Albedo.png using Guid(bac98157b637bab42b0458ecfc324b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae5970834cc9c8ae2da52b5bdaabb44') in 0.011723 seconds 
+  Import took 0.014637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/MarkV_Tank_Albedo.png
+  artifactKey: Guid(2b8d8e97c9b0d714880fa926537e9232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/MarkV_Tank_Albedo.png using Guid(2b8d8e97c9b0d714880fa926537e9232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79975e7c30e849e3a9478fb3b9008a1b') in 0.011068 seconds 
+  Import took 0.013548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/MarkV_Canon_MetallicSmoothness.png
+  artifactKey: Guid(0f4d43877d8810748b6927c472a5e8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/MarkV_Canon_MetallicSmoothness.png using Guid(0f4d43877d8810748b6927c472a5e8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fcd42d84eead72d4ffadcc8155382e') in 0.009583 seconds 
+  Import took 0.012301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/MarkV_Canon_Normal.png
+  artifactKey: Guid(7746be415b03d824f87cc742f078a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/MarkV_Canon_Normal.png using Guid(7746be415b03d824f87cc742f078a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a5b891e1c4c609c44b8b676ab675bf') in 0.009327 seconds 
+  Import took 0.012277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/MarkV_Tank_MetallicSmoothness.png
+  artifactKey: Guid(8532ea3a8f5e8484f8e6e534493d8224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/MarkV_Tank_MetallicSmoothness.png using Guid(8532ea3a8f5e8484f8e6e534493d8224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5470eedc9bd9b9e872d1c4558d5b716e') in 0.012606 seconds 
+  Import took 0.015065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Tank - Mark V drivable/Textures/MarkV_Track_MetallicSmoothness.png
+  artifactKey: Guid(e158ff95f06e3a447bd25cc626f6c582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Textures/MarkV_Track_MetallicSmoothness.png using Guid(e158ff95f06e3a447bd25cc626f6c582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02640733038153f8f484ea4dd4aa0bb6') in 0.012149 seconds 
+  Import took 0.014787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.190027 seconds.
+  path: Assets/Tank - Mark V drivable/Scripts/TracksControler.cs
+  artifactKey: Guid(701222f6d0fa1e642b24500cc37c1295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank - Mark V drivable/Scripts/TracksControler.cs using Guid(701222f6d0fa1e642b24500cc37c1295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554adfc8ed65b824b0600ce7cc562773') in 0.003822 seconds 
+  Import took 0.006488 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
