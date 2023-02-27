@@ -17,42 +17,43 @@ public class TankPawn : Pawn
     public override void Start()
     {
         base.Start();
-        shooter = GetComponent<Shooter>();
     }
 
-    // Update is called once per frame
-    public override void Update()
-    {
-        base.Update();
-    }
-
-    #region Movement
-
+    // A move forward function
     public override void MoveForward()
     {
-        //Debug.Log("Moving forward " + moveSpeed);
         mover.Move(transform.forward, moveSpeed);
     }
 
+    // A move backward function
     public override void MoveBackward()
     {
-        //Debug.Log("Moving backward " + moveSpeed);
         mover.Move(transform.forward, -moveSpeed);
     }
 
+    // A rotate clockwise function
     public override void RotateClockwise()
     {
-        //Debug.Log("Rotating clockwise " + turnSpeed);
         mover.Rotate(turnSpeed);
     }
 
+    // A rotate counterclockwise function
     public override void RotateCounterClockwise()
     {
-        //Debug.Log("Rotating counterclockwise " + turnSpeed);
         mover.Rotate(-turnSpeed);
     }
 
-    #endregion Movement
+    public override void RotateTowards(Vector3 targetPosition)
+    {
+        // Find the vector to our target position 
+        Vector3 vectorToTarget = targetPosition - transform.position;
+
+        // Find the rotation to look down that vector
+        Quaternion targetRotation = Quaternion.LookRotation(vectorToTarget, Vector3.up);
+
+        // Rotate closer to that vector
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
+    }
 
     public override void Shoot()
     {
